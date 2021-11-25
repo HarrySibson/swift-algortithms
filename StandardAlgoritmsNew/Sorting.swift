@@ -8,13 +8,24 @@
 import Foundation
 
 class Sorting{
-    func bubbleSort(_ data: [Int])-> [Int]{
-        if data.count == 0{
+    func bubbleSort(_ anyList:[Int]) ->[Int] {
+        var anyList = anyList
+        if anyList.count == 0{
             return []
-        }else{
-            return[1,2,3,5,9]
         }
+        var tempHolder = 0
+        for i in 0..<anyList.count{
+            for j in 0..<(anyList.count)-1{
+                if anyList[j]>anyList[j+1]{
+                    tempHolder = anyList[j]
+                    anyList[j] = anyList[j+1]
+                    anyList[j+1] = tempHolder
+                }
+            }
+        }
+      return (anyList)
     }
-    
 }
+
+
 
