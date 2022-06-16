@@ -13,8 +13,7 @@
 		1B512A152743C4170038B936 /* SortingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B512A142743C4170038B936 /* SortingTest.swift */; };
 		1B512A192743C5060038B936 /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B512A182743C5060038B936 /* Sorting.swift */; };
 		1B512A1A2743C5060038B936 /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B512A182743C5060038B936 /* Sorting.swift */; };
-		835086482755543E00DF8DD9 /* SortingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B512A142743C4170038B936 /* SortingTest.swift */; };
-		8350864A2755557F00DF8DD9 /* SearchingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2B214E274FB8320095D7AC /* SearchingTest.swift */; };
+		1B744DEE285B4CE700A881A1 /* Searching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2B212F274FB3130095D7AC /* Searching.swift */; };
 		8350864B2755558000DF8DD9 /* SearchingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2B214E274FB8320095D7AC /* SearchingTest.swift */; };
 /* End PBXBuildFile section */
 
@@ -169,7 +168,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					1B2B213F274FB6420095D7AC = {
 						CreatedOnToolsVersion = 12.4;
@@ -234,8 +233,6 @@
 				1B2B2130274FB3130095D7AC /* Searching.swift in Sources */,
 				1B512A192743C5060038B936 /* Sorting.swift in Sources */,
 				1B5129FF2743BD190038B936 /* main.swift in Sources */,
-				8350864A2755557F00DF8DD9 /* SearchingTest.swift in Sources */,
-				835086482755543E00DF8DD9 /* SortingTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +243,7 @@
 				1B512A1A2743C5060038B936 /* Sorting.swift in Sources */,
 				1B512A152743C4170038B936 /* SortingTest.swift in Sources */,
 				8350864B2755558000DF8DD9 /* SearchingTest.swift in Sources */,
+				1B744DEE285B4CE700A881A1 /* Searching.swift in Sources */,
 				1B512A0D2743C3410038B936 /* StandardAlgorithmsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +403,7 @@
 		1B512A032743BD190038B936 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -414,6 +413,7 @@
 		1B512A042743BD190038B936 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

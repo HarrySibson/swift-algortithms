@@ -8,9 +8,9 @@
 import Foundation
 
 class Searching{
-    func linearSearch(_:anyArray,_:search)->bool{
+    func linearSearch(anyArray: [Int], search: Int)-> Bool {
         var found = 0
-        var anyArray = anyArray
+        let anyArray = anyArray
         let search = search
         for i in 0..<anyArray.count{
             if anyArray[i] == search{
@@ -18,7 +18,9 @@ class Searching{
             }
         }
         if found != 0{
-            return True
+            return true
+        } else {
+            return false
         }
     }
     

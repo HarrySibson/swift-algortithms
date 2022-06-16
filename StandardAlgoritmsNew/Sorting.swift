@@ -14,7 +14,7 @@ class Sorting{
             return []
         }
         var tempHolder = 0
-        for i in 0..<anyList.count{
+        for _ in 0..<anyList.count{
             for j in 0..<(anyList.count)-1{
                 if anyList[j]>anyList[j+1]{
                     tempHolder = anyList[j]
@@ -41,7 +41,6 @@ class Sorting{
     }
     
     func quickSort(numbers: [Int]) -> [Int] {
-      numbers = numbers
       var bigArray = [Int]()
       var smallArray = [Int]()
       if numbers.count <= 1 {
